@@ -1,0 +1,8 @@
+The _config file controls a lot of the information about me.
+
+The _posts folder contains all of the posts, which are used to build the site.
+To write a post, do it in a notebook, then save it as markdown.
+And name it properly using the date.
+Example: 2018-02-13-this-is-the-title.md
+
+The assets folder contains images.

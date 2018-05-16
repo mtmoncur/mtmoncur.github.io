@@ -1,0 +1,135 @@
+# Site Settings
+# Accessed via {{ site.title }}, {{ site.email }}, etc.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Tyler Moncur
+email: mtmoncur@gmail.com
+
+description: Tyler Moncur is a Data Scientist for Student Academic Advisement Services working on Project Early Alert - an attempt to quickly identify struggling new students so that they can receive help before they fail their first semester.
+
+
+baseurl:
+url: https://tylermoncur.com
+#twitter_username: &twitter mtmoncur
+github_username:  &github mtmoncur
+
+# Build Settings
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+- jekyll-remote-theme
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-gist
+- jekyll-feed
+- jemoji
+
+whitelist:
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-gist
+- jekyll-feed
+- jemoji
+
+# Minimal Mistakes Settings
+minimal_mistakes_skin: default
+breadcrumbs: true
+title_separator: "-"
+name: Tyler Moncur
+repository: "mtmoncur/mtmoncur.github.io"
+#teaser: assets/img/nicholas/pycon-canada-2017-joints.png
+words_per_minute: 200
+
+twitter:
+  username: *twitter
+
+og_image: assets/img/nicholas/pycon-canada-2017-profile.png
+
+social:
+  links:
+  - "https://twitter.com/mtmoncur"
+  - "https://www.linkedin.com/in/tyler-m-162a4391/"
+#  - "https://www.instagram.com/engnadeau/"
+
+#google_site_verification: Bb2emVwoLMNiVD9x9i6RF98eR0OoQEPgMKBhlXbAhZs
+#analytics:
+#  provider: google-gtag
+#  google:
+#    tracking_id: "UA-60125866-2"
+
+author:
+  name: Tyler Moncur
+  avatar: assets/img/tyler/tyler-2016.jpg
+  bio: "Data Science | Deep Learning"
+  location: "Provo"
+  github: *github
+  linkedin: "tyler-m-162a4391"
+  youtube: "https://www.youtube.com/channel/UC6Sp2uPiWDPa6lzMUhwH7Hw"
+#twitter: *twitter
+#instagram: EngNadeau
+
+include:
+- _pages
+exclude:
+- Gemfile
+- LICENSE
+- README.md
+- "*.ipynb"
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+permalink: /:categories/:title/
+paginate: 8 # amount of posts to show
+paginate_path: /page:num/
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+defaults:
+# _posts
+- scope:
+    path: ""
+    type: posts
+  values:
+    layout: single
+    author_profile: true
+    read_time: true
+    share: true
+    related: true
+# _pages
+- scope:
+    path: ""
+    type: pages
+  values:
+    layout: single
+    author_profile: true
+# _tools
+- scope:
+    path: ""
+    type: tools
+  values:
+    layout: single
+    author_profile: true
+    share: true
+    related: true
+# _talks
+- scope:
+    path: ""
+    type: talks
+  values:
+    layout: single
+    author_profile: true
+    share: true
+    related: true
+
+collections:
+  tools:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
