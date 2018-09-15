@@ -1,2 +1,4 @@
+.jekyll-metadata
+__pycache__/
 _site/
 .ipynb_checkpoints/

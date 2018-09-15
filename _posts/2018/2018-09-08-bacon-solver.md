@@ -18,7 +18,7 @@ To reduce the spatial complexity we can instead create connections between actor
 ![Graph of actors and films](https://www.cs.oberlin.edu/~asharp/cs151/labs/lab10/imdb.png)
 
 ##### Side Note
-The best option is to calculate and save (memoize) the Bacon number for all of the actors, possibly using Djikstra's algorithm. But that sort of detracts from the goal of this project, which is focusing on the breadth-first search algorithm.
+The implementation here is far from optimal. The best option is to calculate and save the Bacon number for all of the actors, possibly using Djikstra's algorithm. But that sort of detracts from the goal of this project, which is focusing on the breadth-first search algorithm.
 
 ## The Product
 I am working on making this interactive. But for now, here are some quick results.
@@ -64,7 +64,7 @@ for name in names:
 
 
     Bacon Number: 2
-    Path ['Ford, Harrison', 'Paranoia', 'Till, Lucas', 'X-Men: First Class', 'Bacon, Kevin']
+    Path ['Ford, Harrison', 'Cowboys & Aliens', 'Huss, Toby', 'R.I.P.D.', 'Bacon, Kevin']
 
 
 
