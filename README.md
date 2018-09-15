@@ -1,14 +1,7 @@
-# Nicholas Nadeau's Personal Site
+# Tyler Moncur's Personal Site
 
-## Inspiration
-- [`Be useful to people.`](https://twitter.com/chrisalbon/status/937070857913896960)
-    - [Chris Albon, @chrisalbon](https://twitter.com/chrisalbon)
-- [`Don't talk about what you know. Talk about what your audience should know.`](https://twitter.com/pdmccormick/status/912113412657811456)
-    - [Peter McCormick, @pdmccormick](https://twitter.com/pdmccormick)
 
 ## Posts & Social Media Strategy & Resources
-### Notable
-- https://github.com/LisaDziuba/Marketing-for-Engineers
 
 ### Sharing & Content Promotion
 - https://blogcharge.com/places-to-promote-blog-posts/

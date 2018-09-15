@@ -56,6 +56,12 @@ social:
 #  provider: google-gtag
 #  google:
 #    tracking_id: "UA-60125866-2"
+google_site_verification:
+analytics:
+  provider: google-gtag
+  google:
+    tracking_id: "UA-119524973-1"
+
 
 author:
   name: Tyler Moncur
