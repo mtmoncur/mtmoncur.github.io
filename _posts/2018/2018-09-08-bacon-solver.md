@@ -1,3 +1,20 @@
+---
+title: "Bacon Solver With Breadth-First Search"
+date: "2018-09-15 14:14:34"
+excerpt: A simple application of graph search algorithms
+header:
+  teaser: assets/img/stock-photos/bigs-HOLLYWOOD-sign-with-flowers-in-foreground-Los-Angeles-CA-e1-Large.png
+  overlay_image: assets/img/stock-photos/bigs-HOLLYWOOD-sign-with-flowers-in-foreground-Los-Angeles-CA-e1-Large.png
+  overlay_filter: 0.5
+classes: wide
+categories:
+- software
+tags:
+- python
+- data structures
+- algorithms
+---
+
 
 ## Introduction
 
