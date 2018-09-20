@@ -1,6 +1,6 @@
 ---
 title: "Bacon Solver With Breadth-First Search"
-date: "2018-09-15 14:14:34"
+date: "2018-09-20 11:15:34"
 excerpt: A simple application of graph search algorithms
 header:
   teaser: assets/img/stock-photos/bigs-HOLLYWOOD-sign-with-flowers-in-foreground-Los-Angeles-CA-e1-Large.png
@@ -18,7 +18,9 @@ tags:
 
 ## Introduction
 
-In this project, I implement and apply the breadth first search algorithm to a classic problem of finding an actor's Bacon umber. If you are not familiar with this game, then I forgive you and will now explain the game. The idea for it may have come from an interview with *Premiere* magazine when Kevin Bacon stated that "he had worked with everybody in Hollywood or someone who’s worked with them." Hence the game is to find the shortest connection between Kevin Bacon and a given actor. Kevin Bacon is the only person with a Bacon number of 0, and every person that has been in the same film as Kevin Bacon has a Bacon number of 1. An actor that has never been in a film with Kevin Bacon, but has worked with someone with a Bacon number of 1 will have Bacon number of 2. So finding an actor's Bacon number is as simple as finding the length of the shortest connecting path between Kevin Bacon and that actor.
+In this project, I implement and apply the breadth first search algorithm to a classic problem of finding an actor's Bacon number. The idea for this game may have come from an interview with *Premiere* magazine when Kevin Bacon stated that "he had worked with everybody in Hollywood or someone who’s worked with them." Hence the game is to find the shortest connection between Kevin Bacon and a given actor.
+
+Kevin Bacon is the only person with a Bacon number of 0, and every person that has been in the same film as Kevin Bacon has a Bacon number of 1. An actor that has never been in a film with Kevin Bacon, but has worked with someone with a Bacon number of 1 will have Bacon number of 2. So finding an actor's Bacon number is as simple as finding the length of the shortest connecting path between Kevin Bacon and that actor.
 
 ![Kevin Bacon](https://upload.wikimedia.org/wikipedia/commons/d/d2/Kevin_Bacon.jpg)
 
