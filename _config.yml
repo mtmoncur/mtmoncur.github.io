@@ -23,6 +23,7 @@ plugins:
 - jekyll-gist
 - jekyll-feed
 - jemoji
+- jekyll-include-cache
 
 whitelist:
 - jekyll-paginate
@@ -37,25 +38,20 @@ breadcrumbs: true
 title_separator: "-"
 name: Tyler Moncur
 repository: "mtmoncur/mtmoncur.github.io"
-#teaser: assets/img/nicholas/pycon-canada-2017-joints.png
+
 words_per_minute: 200
 
 twitter:
   username: *twitter
 
-og_image: assets/img/nicholas/pycon-canada-2017-profile.png
+# og_image: assets/img/nicholas/pycon-canada-2017-profile.png
 
 social:
   links:
   - "https://twitter.com/mtmoncur"
-  - "https://www.linkedin.com/in/tyler-m-162a4391/"
-#  - "https://www.instagram.com/engnadeau/"
+  - "www.linkedin.com/in/tyler-moncur/"
+#  - "https://www.instagram.com/"
 
-#google_site_verification: Bb2emVwoLMNiVD9x9i6RF98eR0OoQEPgMKBhlXbAhZs
-#analytics:
-#  provider: google-gtag
-#  google:
-#    tracking_id: "UA-60125866-2"
 google_site_verification:
 analytics:
   provider: google-gtag
@@ -69,10 +65,9 @@ author:
   bio: "Data Science | Deep Learning"
   location: "Provo"
   github: *github
-  linkedin: "tyler-m-162a4391"
+  linkedin: "tyler-moncur"
   youtube: "https://www.youtube.com/channel/UC6Sp2uPiWDPa6lzMUhwH7Hw"
 #twitter: *twitter
-#instagram: EngNadeau
 
 include:
 - _pages
