@@ -139,3 +139,5 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+
+theme: jekyll-theme-tactile
